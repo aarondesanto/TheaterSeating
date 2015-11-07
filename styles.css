@@ -10,6 +10,7 @@ section{
 	width: 90%;
 	border: double black;
 	background-color: #3D7A58;
+	overflow: hidden;
 }
 
 .goldenCircle{
