@@ -1,5 +1,6 @@
 <html>
 <head>
+<meta charset='utf-8'>
 <link rel="stylesheet" type="text/css" href="styles.css">
 <link rel="icon" type="image/png" href="images/tabicon.png">
 <title>Reserve Your Seat</title>
@@ -11,40 +12,57 @@
 </header>
 
 <section class="one">
-	<div class="goldenCircle" id="r1s1"></div>
-	<div class="goldenCircle" id="r1s2"></div>
-	<div class="goldenCircle" id="r1s3"></div>
-	<div class="goldenCircle" id="r1s4"></div>
-	<div class="goldenCircle" id="r1s5"></div>
-	<div class="goldenCircle" id="r1s6"></div>
+	<div class="goldenCircle" id="r0s0"></div>
+	<div class="goldenCircle" id="r0s1"></div>
+	<div class="goldenCircle" id="r0s2"></div>
+	<div class="goldenCircle" id="r0s3"></div>
+	<div class="goldenCircle" id="r0s4"></div>
+	<div class="goldenCircle" id="r0s5"></div>
 </section>	
 
 <section class="two">
-	<div class="secondrow" id="r2s1"></div>
-	<div class="secondrow" id="r2d2"></div>
-	<div class="secondrow" id="r2s3"></div>
-	<div class="secondrow" id="r2s4"></div>
-	<div class="secondrow" id="r2s5"></div>
-	<div class="secondrow" id="r2s6"></div>
+	<div class="secondrow" id="r1s0"></div>
+	<div class="secondrow" id="r1s1"></div>
+	<div class="secondrow" id="r1s2"></div>
+	<div class="secondrow" id="r1s3"></div>
+	<div class="secondrow" id="r1s4"></div>
+	<div class="secondrow" id="r1s5"></div>
 </section>
 
 <section class="three">
-	<div class="thirdrow" id="r3s1"></div>
-	<div class="thirdrow" id="r3s2"></div>
-	<div class="thirdrow" id="r3s3"></div>
-	<div class="thirdrow" id="r3s4"></div>
-	<div class="thirdrow" id="r3s5"></div>
-	<div class="thirdrow" id="r3s6"></div>
+	<div class="thirdrow" id="r2s0"></div>
+	<div class="thirdrow" id="r2s1"></div>
+	<div class="thirdrow" id="r2s2"></div>
+	<div class="thirdrow" id="r2s3"></div>
+	<div class="thirdrow" id="r2s4"></div>
+	<div class="thirdrow" id="r2s5"></div>
 </section>
 
 <section class="four">
-	<div class="fourthrow" id="r4s1"></div>
-	<div class="fourthrow" id="r4s2"></div>
-	<div class="fourthrow" id="r4s3"></div>
-	<div class="fourthrow" id="r4s4"></div>
-	<div class="fourthrow" id="r4s5"></div>
-	<div class="fourthrow" id="r4s6"></div>
+	<div class="fourthrow" id="r3s0"></div>
+	<div class="fourthrow" id="r3s1"></div>
+	<div class="fourthrow" id="r3s2"></div>
+	<div class="fourthrow" id="r3s3"></div>
+	<div class="fourthrow" id="r3s4"></div>
+	<div class="fourthrow" id="r3s5"></div>
 </section>
+
+<section id="formContainer">
+	<p id="formContainerPara">You have selected seat </p>
+	
+	<form id="reserveSeat" action="" onsubmit="return false;"> <!-- Prevents page refresh when user submits -->
+		<label for="inputName">Full Name 
+			<input id="inputName" type="name" value="John Doe">
+		</label>
+		<label for="inputEmail">eMail Address 
+			<input id="inputEmail" type="email" value="jdoe@genericmove.com">
+		</label>
+		<button id="inputReserve">Reserve</button>
+	</form>
+</section>
+
+<section id="seatIsReserved"></section> <!-- Will be hidden until user clicks reserved seat -->
+<section id="thankYou"></section> <!-- Will be hidden until user reserves a seat -->
 
 <script src="script.js" type="text/javascript"></script>
 </body>
