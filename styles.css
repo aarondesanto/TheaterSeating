@@ -2,6 +2,17 @@
 body{
 	background-color: #25666B;
 }
+
+h1{
+	font-family: Helvetica;
+	text-align: center;
+}
+
+p{
+	position: relative;
+	font-family: Helvetica;
+	text-align: center;}
+
 section{
 	position: relative;
 	left:2%;
