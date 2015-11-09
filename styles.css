@@ -26,14 +26,20 @@ section {
 }
 
 #thankYou {
-	width: 70%;
-	margin: 10px 0 auto;
-	border: 0;
-	border-bottom: 1px solid black;
-	background-color: #FFFFFF;
-	font-family: arial, sans-serif;
 	display: block;
+	width: 70%;
+	height: 150px;
+	margin: 10px auto 0 auto;
+	border: 0;
+	background-image: url(images/stage.jpg);
+	background-position: center;
+	background-size: 100%;
+	font-family: arial, sans-serif;
 	text-align: center;
+}
+#thankYou h2 {
+	margin-top: 35px;
+	color: #FFFFFF;
 }
 #seatIsReserved {
 	display: none;
