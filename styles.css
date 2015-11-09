@@ -60,3 +60,35 @@ body{
 }
 
 }
+
+@media(min-width: 340px) {
+	.seat {
+		position: relative;
+		margin: 0 .7% 0 .3%;
+	}
+}
+@media(min-width: 427px) {
+	.seat {
+		position: relative;
+		margin: 0 1% 0 .5%;
+	}
+}
+@media(min-width: 580px) {
+	.seat {
+		position: relative;
+		margin: 0 1.2% 0 .6%;
+	}
+}
+@media(min-width: 969px) {
+	.seat {
+		position: relative;
+		margin: 0 1.4% 0 .9%;
+	}
+}
+@media(min-width: 1200px) {
+	.seat {
+		position: relative;
+		margin: 0 1.5% 0 1%;
+	}
+}
+
