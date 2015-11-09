@@ -1,33 +1,38 @@
-
 body{
 	background-color: #25666B;
 }
-section{
-	position: relative;
+ section{
+ 	position: relative;
 	left:2%;
 	margin: 5px;
-	height:20%;
-	width: 90%;
+ 	height:20%;
+ 	width: 90%;
+	left:20%;
+	border: double ;
 	border: double black;
-	background-color: #3D7A58;
-	overflow: hidden;
-}
-
-.goldenCircle .firstrow{
-	position: relative;
+ 	background-color: #3D7A58;
+ }
+ 
+ .goldenCircle{
+ 	position: relative;
+	margin: 5px;
+	top:40%;
+	left:40%;
 	margin: 3px;
 	top:30%;
 	left:5%;
-	height:2em;
-	width: 2em;
+ 	height:2em;
+ 	width: 2em;
+	background-color: #112319;
 	background-color: #7DA089;
 	border: solid black 1px;
-	float: left;
-	clear: right;
+ 	float: left;
+ 	clear: right;
+} 
 }
 
-@media(min-width: 600px){
-	.goldenCircle .firstrow{
+@media(min-width: 300px){
+	.goldenCircle{
 	position: relative;
 	margin: 3px;
 	top:10%;
@@ -55,7 +60,3 @@ section{
 }
 
 }
-
-
-
-
