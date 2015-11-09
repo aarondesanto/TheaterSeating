@@ -13,7 +13,7 @@ section{
 	overflow: hidden;
 }
 
-.goldenCircle{
+.goldenCircle .firstrow{
 	position: relative;
 	margin: 3px;
 	top:30%;
@@ -27,7 +27,7 @@ section{
 }
 
 @media(min-width: 600px){
-	.goldenCircle{
+	.goldenCircle .firstrow{
 	position: relative;
 	margin: 3px;
 	top:10%;
