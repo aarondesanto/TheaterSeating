@@ -31,7 +31,11 @@ section {
 #seatIsReserved {
 	display: none;
 }
+<<<<<<< HEAD
 #formContainer {
+=======
+#reserveForm {
+>>>>>>> 2dfa7db1442dbaf5287d48ac880f450602f5e091
 	display: none;
 	text-align: center;
 }
@@ -80,5 +84,9 @@ section {
 		margin: 0 1.5% 0 1%;
 	}
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2dfa7db1442dbaf5287d48ac880f450602f5e091
 
 
