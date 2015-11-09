@@ -26,7 +26,14 @@ section {
 }
 
 #thankYou {
-	display: none;
+	width: 70%;
+	margin: 10px 0 auto;
+	border: 0;
+	border-bottom: 1px solid black;
+	background-color: #FFFFFF;
+	font-family: arial, sans-serif;
+	display: block;
+	text-align: center;
 }
 #seatIsReserved {
 	display: none;
@@ -81,5 +88,3 @@ section {
 	}
 
 }
-
-
