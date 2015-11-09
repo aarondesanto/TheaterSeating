@@ -129,6 +129,7 @@ var theater = [
 	]
 ]
 
+var newTestVar = 0;
 var reserveButton = document.querySelector("#inputReserve");
 var reserveAnother = document.querySelector("#inputReserveAnother");
 var reserveForm = document.querySelector("#reserveForm");
