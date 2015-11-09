@@ -176,7 +176,7 @@ isSeatReserved(3, 2);
 
 /* $(document).ready(function(){
 
-  //Exercise 1
+<!--  //Exercise 1
 
   $('img').mouseenter(function(){
     $('img').fadeTo('fast', 0.5);
@@ -219,4 +219,8 @@ isSeatReserved(3, 2);
   });
 
 
+<<<<<<< HEAD
 }); */
+=======
+});-->
+>>>>>>> c5d7bfbf96686bb9abdc80ae6a41aa13c64934d3
