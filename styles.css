@@ -65,14 +65,18 @@ section {
 
 button {
 	font-family: Helvetica;
-	background-color:;
-	color: red;
+	background-color: #F2DCA0;
+	color: #40071C;
 	font-size: 13px;
+	font-style: bold;
 	margin: 3px;
+	padding: 3px;
 }
 
-
-button:hover {}
+button:hover {
+	background-color: #F2AFA0;
+	color: #660B2E;
+}
 
 
 #seatIsReserved {
@@ -98,15 +102,6 @@ button:hover {}
 	display: block;
 	margin-bottom: 5px;
 	font-size: 12px;
-}
-
-#inputReserve:hover {
-	color: blue;
-
-}
-
-#inputReserve:active {
-	color: pink;
 }
 
 @media(min-width: 190px) {
