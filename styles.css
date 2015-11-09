@@ -32,11 +32,13 @@ section {
 
 button {
 	font-family: Helvetica;
-	font-color: red;
+	background-color:;
 	font-size: 13px;
 	margin: 3px;
-
 }
+
+button:hover {}
+
 #seatIsReserved {
 	display: none;
 }
