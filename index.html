@@ -3,6 +3,7 @@
 <meta charset='utf-8'>
 <link rel="stylesheet" type="text/css" href="styles.css">
 <link rel="icon" type="image/png" href="images/tabicon.png">
+<link href='https://fonts.googleapis.com/css?family=Damion' rel='stylesheet' type='text/css'>
 <title>Reserve Your Seat</title>
 </head>
 <body>
@@ -62,12 +63,16 @@
 	</form>
 </section>
 
-<section id="seatIsReserved"><p>It looks like that seat is already reserved.  Please chose another.</p></section> <!-- Will be hidden until user clicks reserved seat -->
+<section id="seatIsReserved"> <!-- Will be hidden until user clicks reserved seat -->
+	<p class="reservedMessage">It looks like that seat is already reserved.  Please chose another.</p>
+</section>
+
 <section id="thankYou"> <!-- Will be hidden until user reserves a seat -->
 	<h2>Thank you for your business.</h2>
 	<button id="inputReserveAnother">Reserve Another Seat</button>
 </section>
 
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script src="script.js" type="text/javascript"></script>
 </body>
 </html>
