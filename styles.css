@@ -1,7 +1,6 @@
 body {
 	background-color: black;
 }
-
 header {
 	position: relative;
 	left: 16.5%;
@@ -15,17 +14,6 @@ header {
 	margin: 5px 5px 5px 5px;
 	font-family: helvetica;
 }
-
-h1 {
-	text-align: center;
-	font-size: 5em;
-}
-
-#headp{
-	text-align: center;
-	font-size: 1em;
-}
-
 section {
 	position: relative;
 	left: 2%;
@@ -35,6 +23,28 @@ section {
 	border: double black;
 	background-color: #3D7A58;
 	overflow: hidden;
+}
+h1 {
+	text-align: center;
+	font-size: 5em;
+}
+h2 {
+	margin-top: 35px;
+	color: #FFFFFF;
+	text-align: center;
+}
+button {
+	font-family: Helvetica;
+	background-color: #F2DCA0;
+	color: #40071C;
+	font-size: 13px;
+	font-style: bold;
+	margin: 3px;
+	padding: 3px;
+}
+button:hover {
+	background-color: #F2AFA0;
+	color: #660B2E;
 }
 
 .seat {
@@ -49,7 +59,15 @@ section {
 .goldenCircle {
 	border: solid #FFD700 1px;
 }
+.reservedMessage {
+	text-align: center;
+	font-size: 1.3em;
+}
 
+#headp{
+	text-align: center;
+	font-size: 1em;
+}
 #thankYou {
 	display: block;
 	width: 70%;
@@ -66,47 +84,25 @@ section {
 	background-color: black;
 	background-repeat: no-repeat;
 }
-#thankYou h2 {
-	margin-top: 35px;
-	color: #FFFFFF;
-	text-align: center;
-}
-
-button {
-	font-family: Helvetica;
-	background-color: #F2DCA0;
-	color: #40071C;
-	font-size: 13px;
-	font-style: bold;
-	margin: 3px;
-	padding: 3px;
-}
-
-button:hover {
-	background-color: #F2AFA0;
-	color: #660B2E;
-}
-
-#seatIsReserved {
-	display: block;
-	width: 70%;
-	height: 150px;
-	margin: 10px auto 0 auto;
-	border: 0;
-	font-family: arial, sans-serif;
-	text-align: center;
-}
 #reserveForm {
 	display: block;
 	text-align: center;
 	font-family: Helvetica;
 }
-#forName {
+#seatIsReserved {
+	position: fixed;
+	top: 20%;
+	left: 31.25%;
 	display: block;
-	margin-bottom: 5px;
-	font-size: 12px;
+	width: 40%;
+	margin: 0 auto;
+	padding: 3px;
+	border: 0;
+	font-family: arial, sans-serif;
+	text-align: center;
+	background-color: #AAAAAA
 }
-#forEmail {
+#forName, #forEmail {
 	display: block;
 	margin-bottom: 5px;
 	font-size: 12px;
@@ -117,11 +113,25 @@ button:hover {
 		position: relative;
 		margin: 0 .4% 0 .1%;
 	}
+	#seatIsReserved {
+		height: 25%;
+	}
+	.reservedMessage {
+		margin-top: 0;
+	}
 }
-@media(min-width: 340px) {
+@media(min-width: 310px) {
+	#seatIsReserved {
+		height: 22%;
+	}
+}
+@media(min-width: 390px) {
 	.seat {
 		position: relative;
 		margin: 0 .7% 0 .3%;
+	}
+	#seatIsReserved {
+		height: 17%;
 	}
 }
 @media(min-width: 427px) {
@@ -129,11 +139,20 @@ button:hover {
 		position: relative;
 		margin: 0 1% 0 .5%;
 	}
+	#seatIsReserved {
+		height: 15%;
+	}
 }
 @media(min-width: 580px) {
 	.seat {
 		position: relative;
 		margin: 0 1.2% 0 .6%;
+	}
+	#seatIsReserved {
+		height: 12%;
+	}
+	.reservedMessage {
+		margin-top: 10px;
 	}
 }
 @media(min-width: 969px) {
@@ -141,11 +160,20 @@ button:hover {
 		position: relative;
 		margin: 0 1.4% 0 .9%;
 	}
+	#seatIsReserved {
+		height: 10%;
+	}
+	.reservedMessage {
+		margin-top: 10px;
+	}
 }
 @media(min-width: 1200px) {
 	.seat {
 		position: relative;
 		margin: 0 1.5% 0 1%;
+	}
+	.reservedMessage {
+		margin-top: 16px;
 	}
 
 }
