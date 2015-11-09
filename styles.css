@@ -40,22 +40,42 @@ section {
 #thankYou h2 {
 	margin-top: 35px;
 	color: #FFFFFF;
+	text-align: center;
 }
+
+button {
+	font-family: Helvetica;
+	color: red;
+	font-size: 13px;
+	margin: 3px;
+}
+
 #seatIsReserved {
 	display: none;
 }
 #reserveForm {
 	display: block;
 	text-align: center;
-	font-family: hiragino kaku gothic std;
+	font-family: Helvetica;
 }
 #forName {
 	display: block;
 	margin-bottom: 5px;
+	font-size: 12px;
 }
 #forEmail {
 	display: block;
 	margin-bottom: 5px;
+	font-size: 12px;
+}
+
+#inputReserve:hover {
+	color: blue;
+
+}
+
+#inputReserve:active {
+	color: pink;
 }
 
 @media(min-width: 190px) {
