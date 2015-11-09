@@ -131,8 +131,7 @@ var theater = [
 
 var reserveButton = document.querySelector("#inputReserve");
 var reserveAnother = document.querySelector("#inputReserveAnother");
-var reserveForm = document.querySelector("#seatIsReserved");
-var formContainer = document.querySelector("#formContainer");
+var reserveForm = document.querySelector("#reserveForm");
 
 function isSeatReserved(rowNum, seatNum) {
 	if (theater[rowNum][seatNum].reserved === true) {
@@ -151,18 +150,18 @@ function seatNumberToId(rowNum, seatNum) {
 }
 
 function appSeatID(ID) {
-	var seatChosen = document.querySelector("#formContainerPara");
+	var seatChosen = document.querySelector("#reserveFormPara");
 	seatChosen.innerHTML = "You have chosen seat: " + ID;
 }
 
 // This event listener submits the reservation form and then hides it and shows the thank you message
 reserveButton.addEventListener('click', function() {
-	return (formContainer.style.display = "none") && (document.querySelector("#thankYou").style.display = "block");
+	return (reserveForm.style.display = "none") && (document.querySelector("#thankYou").style.display = "block");
 });
 
 // This event listener hides the thank you message and shows the reservation form again if the user wishes to make multiple reservations
 reserveAnother.addEventListener('click', function() {
-	return (formContainer.style.display = "block") && (document.querySelector("#thankYou").style.display = "none");
+	return (reserveForm.style.display = "block") && (document.querySelector("#thankYou").style.display = "none");
 });
 
 isSeatReserved(0, 0);
