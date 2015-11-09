@@ -1,12 +1,8 @@
 body {
 	background-color: black;
 }
-
-
-
-header{
+header {
 	background-image: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSzkxHQ-0SHXdG_zjPMY51hvEQkY-eUCyh9dN8otMQpcErCqI3arQ);
-
 	background-repeat: no-repeat;
 	opacity: 70%;
 	background-size: 100%;
@@ -14,18 +10,14 @@ header{
 	width: 100%;
 	background-color: #115511;
 	margin: 5px 5px 5px 5px;
-
-
 }
-
-h1{
+h1 {
 	text-align: center;
 	font-size: 5em;
 }
-p{
-text-align: center;
-font-size: 1em;
-
+p {
+	text-align: center;
+	font-size: 1em;
 }
 section {
 	position: relative;
@@ -57,9 +49,11 @@ section {
 	height: 150px;
 	margin: 10px auto 0 auto;
 	border: 0;
+	background-color: black;
 	background-image: url(images/stage.jpg);
 	background-position: center;
 	background-size: 100%;
+	background-repeat: no-repeat;
 	font-family: arial, sans-serif;
 	text-align: center;
 }
@@ -82,7 +76,13 @@ button:hover {}
 
 
 #seatIsReserved {
-	display: none;
+	display: block;
+	width: 70%;
+	height: 150px;
+	margin: 10px auto 0 auto;
+	border: 0;
+	font-family: arial, sans-serif;
+	text-align: center;
 }
 #reserveForm {
 	display: block;
