@@ -174,53 +174,45 @@ isSeatReserved(1, 3);
 isSeatReserved(3, 2);
 
 
-/* $(document).ready(function(){
+$(document).ready(function(){
 
-<!--  //Exercise 1
-
-  $('img').mouseenter(function(){
-    $('img').fadeTo('fast', 0.5);
-  });
-  $('img').mouseleave(function(){
-    $('img').fadeTo('fast', 1);
-  });
-
-
-  //Exercise 2
-  //2.1
-  $('.fade-button').click(function(){
-    $('div').fadeOut();
-  });
-
-  //2.2
-  $('.fade-button').click(function(){
-    $('#fader').fadeOut();
-  });
-
-  //Bonus
-  $('.box').click(function(){
-    $(this).fadeOut();
-  });
+//Exercise 1
+//  $('img').mouseenter(function(){
+//    $('img').fadeTo('fast', 0.5);
+//  });
+//  $('img').mouseleave(function(){
+//    $('img').fadeTo('fast', 1);
+//  });
 
 
-  //Exercise 3
-  $('.longbox').mouseenter(function(){
-    $(this).fadeTo('fast', 0.25);
-  });
 
-  $('.longbox').mouseleave(function(){
-    $(this).fadeTo('fast', 1);
-  });
-
-  $('.longbox').click(function(){
-    $(this).toggleClass('off-white');
-    $(this).toggleClass('black-text');
-    $(this).text('clicked!');
-  });
+ // $('.fade-button').click(function(){
+ //   $('div').fadeOut();
+ // });
 
 
-<<<<<<< HEAD
-}); */
-=======
-});-->
->>>>>>> c5d7bfbf96686bb9abdc80ae6a41aa13c64934d3
+ // $('.fade-button').click(function(){
+ //   $('#fader').fadeOut();
+ // });
+
+ // $('.box').click(function(){
+ //   $(this).fadeOut();
+ // });
+
+
+ // $('.longbox').mouseenter(function(){
+ //   $(this).fadeTo('fast', 0.25);
+ // });
+
+ // $('.longbox').mouseleave(function(){
+ //   $(this).fadeTo('fast', 1);
+ // });
+
+ // $('.longbox').click(function(){
+ //   $(this).toggleClass('off-white');
+ //   $(this).toggleClass('black-text');
+ //   $(this).text('clicked!');
+ // });
+
+
+//});-->
