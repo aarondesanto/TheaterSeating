@@ -34,14 +34,15 @@ h2 {
 	text-align: center;
 }
 button {
-	font-family: Helvetica;
+	font-family: "Damion";
 	background-color: #F2DCA0;
 	color: #40071C;
 	font-size: 13px;
 	font-style: bold;
-	margin: 3px;
-	padding: 3px;
+	margin: 2px;
+	border-radius: 17%;
 }
+
 button:hover {
 	background-color: #F2AFA0;
 	color: #660B2E;
@@ -65,7 +66,7 @@ button:hover {
 	font-size: 1.3em;
 }
 
-#headp{
+#headp {
 	text-align: center;
 	font-size: 1em;
 }
@@ -105,7 +106,7 @@ button:hover {
 }
 #forName, #forEmail {
 	display: block;
-	margin-bottom: 5px;
+	margin: 1px;
 	font-size: 12px;
 }
 
