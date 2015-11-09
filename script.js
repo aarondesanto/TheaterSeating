@@ -174,7 +174,7 @@ isSeatReserved(1, 3);
 isSeatReserved(3, 2);
 
 
-$(document).ready(function(){
+/* $(document).ready(function(){
 
   //Exercise 1
 
@@ -219,4 +219,4 @@ $(document).ready(function(){
   });
 
 
-});
+}); */
