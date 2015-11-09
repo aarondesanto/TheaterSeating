@@ -1,3 +1,8 @@
+$(document).ready(function(){
+
+});
+
+
 var theater = [
 	[ // Row Zero
 		{
