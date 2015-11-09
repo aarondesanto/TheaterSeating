@@ -2,9 +2,6 @@ body {
 	background-color: black;
 }
 
-
-
-	
 header {
 	position: relative;
 	left: 16.5%;
@@ -16,9 +13,7 @@ header {
 	width: 70%;
 	background-color: #115511;
 	margin: 5px 5px 5px 5px;
-
 	font-family: helvetica;
-
 }
 
 h1 {
@@ -27,10 +22,9 @@ h1 {
 }
 
 #headp{
-text-align: center;
-font-size: 1em;
+	text-align: center;
+	font-size: 1em;
 }
-
 
 section {
 	position: relative;
@@ -92,7 +86,6 @@ button:hover {
 	background-color: #F2AFA0;
 	color: #660B2E;
 }
-
 
 #seatIsReserved {
 	display: block;
