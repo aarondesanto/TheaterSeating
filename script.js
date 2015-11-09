@@ -176,7 +176,7 @@ isSeatReserved(3, 2);
 
 $(document).ready(function(){
 
-  //Exercise 1
+<!--  //Exercise 1
 
   $('img').mouseenter(function(){
     $('img').fadeTo('fast', 0.5);
@@ -219,4 +219,4 @@ $(document).ready(function(){
   });
 
 
-});
+});-->
