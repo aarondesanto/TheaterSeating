@@ -142,7 +142,7 @@ function isSeatReserved(rowNum, seatNum) {
 }
 
 function makeSeatRed(rowNum, seatNum) {
-	return document.querySelector(seatNumberToId(rowNum, seatNum)).style.backgroundColor = "#771111";
+	return document.querySelector(seatNumberToId(rowNum, seatNum)).style.backgroundColor = "#5B2025";
 }
 
 function seatNumberToId(rowNum, seatNum) {
