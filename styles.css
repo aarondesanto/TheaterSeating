@@ -52,22 +52,56 @@ section {
 }
 
 #thankYou {
-	display: none;
+	display: block;
+	width: 70%;
+	height: 150px;
+	margin: 10px auto 0 auto;
+	border: 0;
+	background-image: url(images/stage.jpg);
+	background-position: center;
+	background-size: 100%;
+	font-family: arial, sans-serif;
+	text-align: center;
 }
+#thankYou h2 {
+	margin-top: 35px;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+button {
+	font-family: Helvetica;
+	color: red;
+	font-size: 13px;
+	margin: 3px;
+}
+
 #seatIsReserved {
 	display: none;
 }
 #reserveForm {
-	display: none;
+	display: block;
 	text-align: center;
+	font-family: Helvetica;
 }
 #forName {
 	display: block;
 	margin-bottom: 5px;
+	font-size: 12px;
 }
 #forEmail {
 	display: block;
 	margin-bottom: 5px;
+	font-size: 12px;
+}
+
+#inputReserve:hover {
+	color: blue;
+
+}
+
+#inputReserve:active {
+	color: pink;
 }
 
 @media(min-width: 190px) {
@@ -107,5 +141,3 @@ section {
 	}
 
 }
-
-
