@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+//var btn = $("#inputReserve").html();
+
 $('div').mouseenter(function(){
    $(this).fadeTo('fast', 0.5)
   });
@@ -8,13 +10,13 @@ $('div').mouseenter(function(){
   });
 });
 
+$(function() {
+    $('#inputReserve').hide();
+});
+
 $('div').click(function(){
-   $(this).toggleClass('off-white');
-    $(this).toggleClass('black-text');
-    $(this).text('Sold!');
-  });
-
-
+    $(this).replaceWith('<button id="inputReserve">Reserve</button>');
+});
 
 
   

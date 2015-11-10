@@ -49,7 +49,7 @@ button {
 	color: #40071C;
 	font-size: 13px;
 	font-style: bold;
-	margin: 2px;
+	margin: 20px;
 	border-radius: 17%;
 }
 
@@ -97,7 +97,7 @@ button:hover {
 	background-repeat: no-repeat;
 }
 #reserveForm {
-	display: block;
+	display: inline;
 	text-align: center;
 	font-family: Helvetica;
 }

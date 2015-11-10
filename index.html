@@ -50,8 +50,9 @@
 	<div class="seat fourthrow" id="r3s5"></div>
 </section>
 
-<section id="reserveForm">
-	<p id="reserveFormPara"></p>
+<button id="inputReserve">Reserve</button>
+
+<div id="reserveForm">
 	
 	<form id="reserveSeat" action="" onsubmit="return false;"> <!-- Prevents page refresh when user submits -->
 		<label id="forName" for="inputName">FULL NAME   
@@ -60,18 +61,19 @@
 		<label id="forEmail" for="inputEmail">EMAIL ADDRESS   
 			<input id="inputEmail" type="email" value="jdoe@genericmovie.com">
 		</label>
-		<button id="inputReserve">Reserve</button>
+		
 	</form>
-</section>
+</div>
 
-<section id="seatIsReserved"> <!-- Will be hidden until user clicks reserved seat -->
+<div id="seatIsReserved"> <!-- Will be hidden until user clicks reserved seat -->
 	<p class="reservedMessage">It looks like that seat is already reserved.  Please chose another.</p>
 </section>
 
-<section id="thankYou"> <!-- Will be hidden until user reserves a seat -->
+<div id="thankYou"> <!-- Will be hidden until user reserves a seat -->
 	<h2>Thank you for your business.</h2>
 	<button id="inputReserveAnother">Reserve Another Seat</button>
-</section>
+</div>
+
 
 <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script src="script.js" type="text/javascript"></script>
