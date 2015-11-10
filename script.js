@@ -1,5 +1,5 @@
 var theater = [
-	[ // Row Zero
+	[  Row Zero
 		{
 			name: "seat1",
 			reserved: true,
@@ -31,7 +31,7 @@ var theater = [
 			cost:  8
 		}
 	], 
-	[ // Row One
+	[ Row One
 		{
 			name: "seat1",
 			reserved: false,
@@ -63,7 +63,7 @@ var theater = [
 			cost:  5
 		}
 	], 
-	[ // Row Two
+	[ Row Two
 		{
 			name: "seat1",
 			reserved: false,
@@ -95,7 +95,7 @@ var theater = [
 			cost:  5
 		}
 	], 
-	[ // Row Three
+	[ Row Three
 		{
 			name: "seat1",
 			reserved: false,
@@ -174,7 +174,7 @@ isSeatReserved(1, 3);
 isSeatReserved(3, 2);
 
 
-$(document).ready(function(){
+$(document).ready(function(){-->
 
 //Exercise 1
 //  $('img').mouseenter(function(){
