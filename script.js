@@ -1,9 +1,28 @@
 $(document).ready(function(){
 
+$('div').mouseenter(function(){
+   $(this).fadeTo('fast', 0.5)
+  });
+  $('div').mouseleave(function(){
+    $(this).fadeTo('fast', 1);
+  });
 });
 
+$('div').click(function(){
+   $(this).toggleClass('off-white');
+    $(this).toggleClass('black-text');
+    $(this).text('Sold!');
+  });
 
-var theater = [
+
+
+
+  
+
+
+
+
+/*var theater = [
 	[ // Row Zero
 		{
 			name: "seat1",
@@ -177,9 +196,10 @@ isSeatReserved(0, 1);
 isSeatReserved(1, 2);
 isSeatReserved(1, 3);
 isSeatReserved(3, 2);
+*/
 
 
-$(document).ready(function(){
+//$(document).ready(function(){
 
 //Exercise 1
 //  $('img').mouseenter(function(){
