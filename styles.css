@@ -15,9 +15,9 @@ header {
 	font-family: helvetica;
 }
 
-#seating{
+#seating {
 	position: absolute;
-	top:100%;
+	top: 100%;
 	bottom: 2%;
 	height: 5%;
 	width:5%;
@@ -45,14 +45,15 @@ h2 {
 }
 button {
 	position: inline;
+	display: none;
 	font-family: "Damion";
 	background-color: #F2DCA0;
 	color: #40071C;
-	font-size: 18px;
+	font-size: 24px;
 	font-style: bold;
-	margin: 2px;
-	padding: 4px;
+	padding: 8px;
 	border-radius: 17%;
+	text-align: center;
 }
 
 button:hover {
@@ -73,115 +74,27 @@ button:hover {
 .goldenCircle {
 	border: solid #FFD700 1px;
 }
-.reservedMessage {
-	text-align: center;
-	font-size: 1.3em;
-}
+
 
 #headp {
 	text-align: center;
 	font-size: 1em;
 }
-#thankYou {
-	display: none;
-	width: 70%;
-	height: 150px;
-	margin: 10px auto 0 auto;
-	border: 0;
-	background-color: black;
-	background-image: url(images/stage.jpg);
-	background-position: center;
-	background-size: 100%;
-	background-repeat: no-repeat;
-	font-family: arial, sans-serif;
+
+.formContainer {
+	display: inline;
 	text-align: center;
-	background-color: black;
-	background-repeat: no-repeat;
+	height: 100px;
+	width: 200px;
 }
+
 #reserveForm {
-	display: none;
+	display: inline;
 	text-align: center;
 	font-family: Helvetica;
 }
-#seatIsReserved {
-	position: fixed;
-	display: none;
-	top: 20%;
-	left: 31.25%;
-	width: 40%;
-	margin: 0 auto;
-	padding: 3px;
-	border: 0;
-	font-family: arial, sans-serif;
-	text-align: center;
-	background-color: #AAAAAA
-}
+
 #forName, #forEmail {
-	display: block;
 	margin: 1px;
 	font-size: 12px;
-}
-
-@media(min-width: 190px) {
-	.seat {
-		margin: 0 .4% 0 .1%;
-	}
-	#seatIsReserved {
-		height: 25%;
-	}
-	.reservedMessage {
-		margin-top: 0;
-	}
-}
-@media(min-width: 310px) {
-	#seatIsReserved {
-		height: 22%;
-	}
-}
-@media(min-width: 390px) {
-	.seat {
-		margin: 0 .7% 0 .3%;
-	}
-	#seatIsReserved {
-		height: 17%;
-	}
-}
-@media(min-width: 427px) {
-	.seat {
-		margin: 0 1% 0 .5%;
-	}
-	#seatIsReserved {
-		height: 15%;
-	}
-}
-@media(min-width: 580px) {
-	.seat {
-		margin: 0 1.2% 0 .6%;
-	}
-	#seatIsReserved {
-		height: 12%;
-	}
-	.reservedMessage {
-		margin-top: 10px;
-	}
-}
-@media(min-width: 969px) {
-	.seat {
-		margin: 0 1.4% 0 .9%;
-	}
-	#seatIsReserved {
-		height: 10%;
-	}
-	.reservedMessage {
-		margin-top: 10px;
-	}
-}
-@media(min-width: 1200px) {
-	.seat {
-		margin: 0 1.5% 0 1%;
-	}
-	.reservedMessage {
-		margin-top: 16px;
-	}
-
 }

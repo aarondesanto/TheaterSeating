@@ -1,20 +1,26 @@
 $(document).ready(function(){
 
-$('div').mouseenter(function(){
-   $(this).fadeTo('fast', 0.5)
-  });
-  $('div').mouseleave(function(){
-    $(this).fadeTo('fast', 1);
-  });
-});
+	$('div').mouseenter(function(){
+	   $(this).fadeTo('fast', 0.5);
+	});
+	$('div').mouseleave(function(){
+	  $(this).fadeTo('fast', 1);
+	});
+	
+	$('#inputReserve').hide();
 
-$(function() {
-    $('#inputReserve').hide();
-});
+	$('.formContainer').hide();
 
-$('div').click(function(){
-   $(this).replaceWith('#inputReserve')
-  });
+	$('div').each(function(index, div){
+		$(this).click(function(){
+		    $(this).prepend($('#inputReserve'));
+		    $('#inputReserve').show();
+		    $('#inputReserve').click(function(){
+		 		$(this).replaceWith($('#reserveForm'));
+			});
+		}); 
+	});
+});
 
 
 
@@ -26,7 +32,7 @@ $('div').click(function(){
 
 /*var theater = [
 	[ // Row Zero
->>>>>>> 3471f74abff20cfee49e19f66699dc83f622221b
+
 		{
 			name: "seat1",
 			reserved: true,

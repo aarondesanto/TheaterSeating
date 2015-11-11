@@ -15,12 +15,12 @@
 </header>
 
 <section class="one">
-	<div class="seat goldenCircle" id="r0s0"></div>
-	<div class="seat goldenCircle" id="r0s1"></div>
-	<div class="seat goldenCircle" id="r0s2"></div>
-	<div class="seat goldenCircle" id="r0s3"></div>
-	<div class="seat goldenCircle" id="r0s4"></div>
-	<div class="seat goldenCircle" id="r0s5"></div>
+	<div class="goldenCircle" id="r0s0"></div>
+	<div class="goldenCircle" id="r0s1"></div>
+	<div class="goldenCircle" id="r0s2"></div>
+	<div class="goldenCircle" id="r0s3"></div>
+	<div class="goldenCircle" id="r0s4"></div>
+	<div class="goldenCircle" id="r0s5"></div>
 </section>	
 
 <section class="two">
@@ -50,31 +50,20 @@
 	<div class="seat fourthrow" id="r3s5"></div>
 </section>
 
-	
-<form id="reserveSeat" action="" onsubmit="return false;"> <!-- Prevents page refresh when user submits -->
-	<label id="forName" for="inputName">FULL NAME   
-		<input id="inputName" type="name" value="John Doe">
-		</label>
-	<label id="forEmail" for="inputEmail">EMAIL ADDRESS   
-		<input id="inputEmail" type="email" value="jdoe@genericmovie.com">
-	</label>
-</form>
 
 <button id="inputReserve">Reserve</button>
+
+	<form id="reserveForm" action="" onsubmit="return false;"> <!-- Prevents page refresh when user submits -->
+	<label id="forName" for="inputName">FULL NAME   
+		<input id="inputName" type="name" value="Your Name">
+		</label>
+	<label id="forEmail" for="inputEmail">EMAIL ADDRESS   
+		<input id="inputEmail" type="email" value="movielover@filmbuff.com">
+	</label>
+</form>
 	
-
-<section id="seatIsReserved"> <!-- Will be hidden until user clicks reserved seat -->
-	<p class="reservedMessage">It looks like that seat is already reserved.  Please chose another.</p>
-</section>
-
-<section id="thankYou"> <!-- Will be hidden until user reserves a seat -->
-	<h2>Thank you for your business.</h2>
-	<button id="inputReserveAnother">Reserve Another Seat</button>
-</section>
 
 <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script src="script.js" type="text/javascript"></script>
-</body>
-</html>
 </body>
 </html>
